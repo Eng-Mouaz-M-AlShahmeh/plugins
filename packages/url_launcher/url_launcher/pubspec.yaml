@@ -23,7 +23,7 @@ flutter:
       web:
         default_package: url_launcher_web
       windows:
-        default_package: url_launcher_windows
+        default_package: url_launcher_windows 
 
 dependencies:
   flutter:
