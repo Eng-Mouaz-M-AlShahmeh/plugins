@@ -7,7 +7,7 @@
 ///
 /// The format is is "`/sNN-c/`", where `NN` is the max width/height of the
 /// image, and "`c`" indicates we want the image cropped.
-final RegExp sizeDirective = RegExp(r'^s[0-9]{1,5}(-c)?$');
+final RegExp sizeDirective = RegExp(r'^s[0-9]{1,5}(-c)?$'); 
 
 /// Adds [size] (and crop) directive to [photoUrl].
 ///
